@@ -1,0 +1,15 @@
+#Logoimg {
+    height: 25%;
+    width: 25%;
+}
+.jumbotron {
+    background-image: url(https://2577343.fs1.hubspotusercontent-na1.net/hub/2577343/hubfs/new%20website%20hero%20background%20image%20%281%29.png?width=1440&name=new%20website%20hero%20background%20image%20%281%29.png);
+    padding: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    margin-top: -40px;
+    margin-bottom: 30px;
+    background-attachment: fixed;
+    background-position: center -20px;
+}
