@@ -23,6 +23,10 @@ section, row {
     float: right;
 }
 
+.me-3:hover, .me-3:active, .me-3.active {
+    color: #0C63FF !important;
+}
+
 .hero-blue, .brand-banner, .cta-banner {
     margin: 0 auto;
     background-color: #0C63FF;
