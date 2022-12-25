@@ -1,0 +1,223 @@
+section, row {
+    width: 100%;
+    margin: 0;
+}
+
+.mb-4 {
+    margin-bottom: 0 !important;
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+
+.me-3 {
+    font-size: .9rem !important;
+}
+
+.navbar, .sticky-top {
+    background-color: white;
+    box-shadow: 0 0 30px 0 rgb(119 131 143 / 20%);
+    margin-bottom: 0;
+}
+
+.nav-links-right {
+    float: right;
+}
+
+.hero-blue, .brand-banner, .cta-banner {
+    margin: 0 auto;
+    background-color: #0C63FF;
+    
+}
+
+.hero-blue {
+    padding: 50px 0 80px;
+    margin-top: 0;
+}
+
+.hero-blue h2, .hero-blue p {
+    color: white;
+}
+
+.brand-banner {
+    color: white;
+    text-align: center;
+    padding: 25px;
+    
+}
+
+.cta-banner {
+    color: white;
+    padding: 40px;
+    display: flex;
+    
+}
+
+.cta-banner .col-md-6 {
+    margin: 0 auto;
+}
+
+.outline-white {
+    border: 1px solid white;
+    background-color: #0C63FF;
+    color: white;
+    border-radius: 2%;
+}
+
+.outline-white:hover {
+    background-color: white;
+    color: #666;
+}
+
+.card-section {
+    padding-bottom: 50px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.cta-card {
+    margin-top: -40px;
+    border-radius: 0%;
+    padding: 15px;
+    height: 100%;
+    min-height: 450px;
+}
+
+.btn-hire {
+    border-radius: 5%;
+    margin-top: 80px;
+}
+
+.btn-hire:hover {
+    background-color: #0C63FF;
+    color: white;
+    border: none;
+}
+
+.bespoke {
+    background-image: url(https://2577343.fs1.hubspotusercontent-na1.net/hub/2577343/hubfs/Brand2Files/Untitled%20design%20%2829%29.png?width=2880&name=Untitled%20design%20%2829%29.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 80px;
+    text-align: center;
+}
+
+.bespoke h3 {
+    padding-bottom: 30px;
+}
+
+.bespoke img {
+    padding-top: 40px;
+}
+
+.v-pill-btn {
+    background-color: #0C63FF !important;
+    color: white;
+    border-radius: 0% !important;
+    border-bottom: 1px solid #000;
+    padding: 20px 10px 20px;
+    text-align: left;
+}
+
+.v-pill-btn:active, .v-pill-btn.active {
+    background-color: white !important;
+    color: #666 !important;
+}
+
+.v-pill-btn:hover {
+    color: white;
+}
+
+.boost {
+    background-image: url(https://www.techtalentsouth.com/hubfs/social-suggested-images/cog%20first%20day%20phx.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    float: right;
+    height: 100%;
+    min-height: 220px;
+    margin-top: -152px;
+}
+
+
+
+.talent {
+    background-image: url(https://www.lean-labs.com/hubfs/sr-assets/images/bg-sample.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    float: right;
+    height:100%;
+    min-height: 240px;
+    margin-top: -205px;
+}
+
+.economic {
+    background-image: url(https://www.lean-labs.com/hubfs/sr-assets/images/bg-sample.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    float: right;
+    height:100%;
+    min-height: 240px;
+    margin-top: -155px;
+}
+
+.costs {
+    background-image: url(https://www.lean-labs.com/hubfs/sr-assets/images/bg-sample.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    float: right;
+    height:100%;
+    min-height: 240px;
+    margin-top: -150px;
+}
+
+.boost-text, .talent-text, .economic-text, .costs-text {
+    padding: 50px 20px 0px 20px;
+}
+
+.talent-carousel {
+    padding: 80px 50px 80px;
+    text-align: center;
+}
+
+.carousel-item img {
+    max-width: 150px;
+}
+
+footer {
+    background-color: #F8F9FA;
+}
+
+.my-5 {
+    margin-bottom: 0 !important;
+}
+
+footer h5, footer p {
+    font-size: 1rem;
+}
+
+.social-icons {
+    list-style: none;
+    display: inline-flex;
+    float: left;
+    margin-top: 20px;    
+}
+
+.fa-brands {
+    color: gray;
+    padding-right: 20px;
+}
+
+.copyright-text {
+    text-align: center;
+    color: gray;
+    font-size: .8125rem;
+    padding: 30px;
+    
+}
+
+.copyright-text hr {
+    margin-bottom: 20px;
+}
