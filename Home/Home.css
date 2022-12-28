@@ -17,6 +17,10 @@
 }
 #Navbarmain {
     text-align: right;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white !important;
     
     
 }
@@ -25,6 +29,7 @@
     text-align: right;
     right: -35%;
     color: black;
+    
     
     
    
@@ -103,3 +108,50 @@ position: absolute;
    margin-left: 25%;
     border-style: none;
   }
+  .card-horizontal1 {
+    display: flex;
+    flex: 1 1 auto;
+  }
+  .card1 {
+    text-align: right;
+   margin-left: 25%;
+    border-style: none;
+  }
+  .row1 {
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 10%;
+  }
+ 
+  .makepic {
+    background-image: url(https://2577343.fs1.hubspotusercontent-na1.net/hub/2577343/hubfs/Brand2Files/Untitled%20design%20%2829%29.png?width=2880&name=Untitled%20design%20%2829%29.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: white;
+    padding: 10% 10%;
+  }
+
+  .card3 {
+    border-style:solid black;
+    position: relative;
+    left: 37%;
+    margin-bottom: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+   
+  }
+  .card-body1 {
+   
+    padding:10%
+  }
+.card-img-top1 {
+    border-style: solid;
+    border-radius:100%;
+    color: rgb(56, 56, 253);
+    position: absolute;
+    top:-13%;
+    left:20%;
+    height: 22%;
+    width: 25%;
+   
+    
+}
