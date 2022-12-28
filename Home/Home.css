@@ -15,12 +15,14 @@
     color: white;
     text-align: center;
 }
+
 #Navbarmain {
     text-align: right;
     position: fixed;
     top: 0px;
     width: 100%;
     background-color: white !important;
+    z-index: 100;
     
     
 }
@@ -71,7 +73,7 @@ position: absolute;
 }
 
 .firstmenu li a:hover {
-   color: blue;
+   color: #0c63ff;
 }
 
 .nav-item1:hover .firstmenu {
@@ -89,7 +91,7 @@ position: absolute;
 }
 
 .secmenu li a:hover {
-   color: blue;
+   color: #0c63ff;
 }
 
 .nav-item2:hover .secmenu {
@@ -98,6 +100,10 @@ position: absolute;
 .contentmaterial {
     text-align: center;
     margin: 5%;
+}
+.cardhead {
+  text-align: center;
+  margin-bottom: 15%;
 }
 .card-horizontal {
     display: flex;
@@ -146,7 +152,7 @@ position: absolute;
 .card-img-top1 {
     border-style: solid;
     border-radius:100%;
-    color: rgb(56, 56, 253);
+    color: #0c63ff;
     position: absolute;
     top:-13%;
     left:20%;
@@ -154,4 +160,78 @@ position: absolute;
     width: 25%;
    
     
+}
+.card-text99 {
+  color: #0c63ff;
+}
+
+.card-text59 {
+  color: gray;
+}
+
+.bluebanner {
+  margin: 10% 10% 0% -37%;
+  background-color: #0c63ff;
+  width: 176%;
+ padding-left: 15%;
+ padding-top: 5%;
+ padding-bottom: 5%;
+
+}
+.bluebanner h4 {
+  color: white;
+  padding-left: 10%;
+}
+
+.bluebanner p1 {
+  color: white;
+  padding-left: 10%;
+}
+.bluebanner button {
+  background-color: #0c63ff;
+ position: relative;
+ left: 50%;
+}
+.bluebanner button:hover {
+  background-color: white;
+  color: black;
+}
+
+#footer1 {
+  width: 100%;
+  background-color: #f5f7f9;
+
+  margin-top: 0%;
+ padding: 0% 10%;
+ margin: 0% 10% 0% -37%;
+ width: 176%;
+padding-left: 15%;
+padding-top: 5%;
+padding-bottom: 5%
+}
+#navbarText1 {
+  text-align: left;
+}
+
+#Logoim {
+  width: 50%;
+}
+
+.lastfooter {
+  background-color: #f5f7f9;
+  width: 100%;
+  margin-top: 0%;
+  padding: 0% 10%;
+  margin: 0% 10% 0% -37%;
+  width: 176%;
+ padding-left: 15%;
+ padding-top: 5%;
+ padding-bottom: 5%;
+}
+.justify-content-center {
+  border-top: solid gray .009px;
+}
+
+.boldthis {
+  font-weight: 600;
 }
