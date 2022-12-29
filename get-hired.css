@@ -1,0 +1,758 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body {
+    background-color: rgb(248, 249, 250);
+    font-family: "Poppins";
+}
+
+nav {
+    height: 87px;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar img {
+    position: fixed;
+    left: 160px;
+}
+
+.navbar ul {
+    position: fixed;
+    right: 170px;
+    font-size: 14px;
+
+}
+
+.info {
+    background-color: rgb(13, 98, 255);
+    padding: 108px;
+    outline: rgb(25, 0, 124);
+    outline-style: solid;
+    outline-width: 0.5px;
+}
+
+.info-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px
+}
+
+.carousel-left {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin-top: -60px;
+    margin-right: 140px;
+}
+
+.carousel-left h1 {
+    font-weight: bolder;
+}
+
+.carousel-item {
+    width: 450px;
+}
+
+.carousel-inner {
+    width: 450px;
+    max-height: 300px !important;
+}
+
+.buttons {
+    display: flex;
+    margin-left: 57px;
+}
+
+.buttons .btn {
+    padding: 12px;
+}
+
+.buttons .light {
+    width: 200px;
+    height: 50px;
+}
+
+
+.learning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+    text-align: center;
+}
+
+.learning-text {
+    margin: 30px;
+}
+
+.learning-text h3 {
+    font-weight: bolder;
+}
+
+.learning-text h5 {
+    color: rgb(136, 133, 133)
+}
+
+.learning-info .btn {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: rgb(221, 221, 221);
+}
+
+.learning-info .btn h6 {
+    font-weight: bold;
+}
+
+.learning-info .btn p {
+    color: rgb(136, 133, 133);
+    font-size: small;
+}
+
+.fswd-modal .btn-light {
+    width: 700px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.da .btn-light {
+    width: 700px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.modal-content {
+    width: 700px;
+    height: 300px;
+    text-align: left;
+}
+
+.modal-title {
+    font-weight: bolder;
+}
+
+.modal-body {
+    display: flex;
+    align-items: center;
+    color: rgb(136, 133, 133);
+}
+
+.special {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.special-info .btn {
+    display: flex;
+    flex-direction: column;
+    margin: 13px;
+    background-color: rgb(255, 255, 255);
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: rgb(221, 221, 221);
+    text-align: left;
+    width: 700px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.special-info .btn h6 {
+    font-weight: bold;
+}
+
+.special-info .btn p {
+    color: rgb(136, 133, 133);
+    font-size: small;
+}
+
+.tts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13, 98, 255);
+}
+
+.tts ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+
+.tts ul li {
+    margin-top: 40px;
+}
+
+.tts-title h6 {
+    font-weight: bolder;
+}
+
+.process {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.process-text {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.process-text h3 {
+    font-weight: bolder;
+}
+
+.process-text h6 {
+    color: rgb(136, 133, 133)
+}
+
+.process-cards {
+    display: flex;
+}
+
+.p1 {
+    height: 230px;
+    transition: 0.5s;
+    border-top-color: rgba(135, 144, 158);
+    border-top-width: 5px;
+    background-color: rgb(248, 249, 250);
+    width: 400px;
+    margin-right: 10px;
+}
+
+.p1:hover {
+    height: 260px;
+    border-top-color: rgb(13, 98, 255);
+    border-top-width: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.p1 .card-body {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.p1 .card-body h5 {
+    font-weight: bold;
+}
+
+.p1 .card-body p {
+    color: rgb(136, 133, 133);
+}
+
+.circle {
+    position: absolute;
+    top: -35px;
+    left: 170px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(135, 144, 158);
+    transition: 0.5s;
+    z-index: 10;
+}
+
+.p1:hover .circle {
+    background-color: rgb(13, 98, 255);
+}
+
+.circle h3 {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(255, 255, 255)
+}
+
+.actionBtn {
+    margin-bottom: 40px;
+    display: none;
+}
+
+.pc-1:hover .actionBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p2 {
+    height: 230px;
+    transition: 0.5s;
+    border-top-color: rgba(135, 144, 158);
+    border-top-width: 5px;
+    background-color: rgb(248, 249, 250);
+    width: 400px;
+    margin-right: 10px;
+}
+
+.p2:hover {
+    border-top-color: rgb(13, 98, 255);
+    border-top-width: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.p2 .card-body {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.p2 .card-body h5 {
+    font-weight: bold;
+}
+
+.p2 .card-body p {
+    color: rgb(136, 133, 133);
+}
+
+.p2:hover .circle {
+    background-color: rgb(13, 98, 255);
+}
+
+.p3 {
+    height: 230px;
+    transition: 0.5s;
+    border-top-color: rgba(135, 144, 158);
+    border-top-width: 5px;
+    background-color: rgb(248, 249, 250);
+    width: 400px;
+}
+
+.p3:hover {
+    border-top-color: rgb(13, 98, 255);
+    border-top-width: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.p3 .card-body {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.p3 .card-body h5 {
+    font-weight: bold;
+}
+
+.p3 .card-body p {
+    color: rgb(136, 133, 133);
+}
+
+.p3:hover .circle {
+    background-color: rgb(13, 98, 255);
+}
+
+.trio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-pills {
+    display: flex;
+    margin-right: 300px;
+    width: 330px;
+    background-color: rgb(13, 98, 255);
+    height: 550px;
+}
+
+#v-pills-home-tab {
+    height: 100px;
+}
+
+#v-pills-profile-tab {
+    height: 100px;
+}
+
+#v-pills-messages-tab {
+    height: 100px;
+}
+
+.tab-content .tab-pane {
+    margin-left: 30px;
+    width: 900px;
+    background-image: url(https://www.lean-labs.com/hubfs/sr-assets/images/bg-sample.jpg);
+    background-repeat: no-repeat;
+    background-position: 430px 0px;
+    background-size: 550px 550px;
+}
+
+.tab-content .tab-pane h2 {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.tab-content .tab-pane h5 {
+    color: rgb(136, 133, 133);
+}
+
+.reviews {
+    margin-top: 100px;
+}
+
+.reviews-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+.reviews-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 100px;
+}
+
+.rc1 {
+    height: 360px;
+    width: 350px;
+    margin-bottom: -10px;
+    margin-right: 30px;
+}
+
+.rc1 .card-body {
+    margin-top: 60px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.rc1 .card-body p {
+    color: rgb(136, 133, 133);
+}
+
+.rc1 .card-body h5 {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.rc1 .card-body h6 {
+    color: rgb(13, 98, 255);
+    font-weight: bold;
+    font-size: small;
+}
+
+.rc1 .img-circle1 {
+    position: absolute;
+    top: -45px;
+    left: 40px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url(https://www.techtalentsouth.com/hubfs/Azanae.png);
+    background-size: cover;
+    z-index: 10;
+    border-style: solid;
+    border-color: rgb(13, 98, 255);
+    border-width: 2px;
+}
+
+
+.rc2 {
+    height: 370px;
+    width: 350px;
+    margin-bottom: 80px;
+    margin-right: 30px;
+}
+
+.rc2 .card-body {
+    margin-top: 60px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.rc2 .card-body p {
+    color: rgb(136, 133, 133);
+}
+
+.rc2 .card-body h5 {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.rc2 .card-body h6 {
+    color: rgb(13, 98, 255);
+    font-weight: bold;
+    font-size: small;
+}
+
+.rc2 .img-circle2 {
+    position: absolute;
+    top: -45px;
+    left: 40px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url(https://www.techtalentsouth.com/hubfs/Kyle%20Bustard%20BW.png);
+    background-size: cover;
+    z-index: 10;
+    border-style: solid;
+    border-color: rgb(13, 98, 255);
+    border-width: 2px;
+}
+
+.rc3 {
+    height: 440px;
+    width: 350px;
+    margin-bottom: 100px;
+}
+
+.rc3 .card-body {
+    margin-top: 60px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.rc3 .card-body p {
+    color: rgb(136, 133, 133);
+}
+
+.rc3 .card-body h5 {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.rc3 .card-body h6 {
+    color: rgb(13, 98, 255);
+    font-weight: bold;
+    font-size: small;
+}
+
+.rc3 .img-circle3 {
+    position: absolute;
+    top: -45px;
+    left: 40px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url(https://www.techtalentsouth.com/hubfs/peyton.jpeg);
+    background-size: cover;
+    z-index: 10;
+    border-style: solid;
+    border-color: rgb(13, 98, 255);
+    border-width: 2px;
+}
+
+.r-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+}
+
+.manager {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 150px;
+}
+
+.mngr-text {
+    text-align: left;
+}
+
+.mngr-text h4 {
+    font-weight: bold;
+}
+
+.mngr-text h6 {
+    color: rgb(136, 133, 133)
+}
+
+.cal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 550px;
+    width: 370px;
+    background-color: rgb(64, 93, 122);
+}
+
+.cal .date {
+    width: 370px;
+    padding: 25px;
+    color: white;
+}
+
+.cal .title {
+    margin-top: 60px;
+    font-size: 16px;
+}
+
+.cal h5 {
+    display: flex;
+    justify-content: center;
+    margin: 0 15px 30px;
+}
+
+.date .prev {
+    float: left;
+}
+
+.date .next {
+    float: right;
+}
+
+
+.cal .days {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cal .day,
+.cal .number,
+.cal .number-color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+}
+
+.cal .number {
+    color: rgb(136, 133, 133);
+}
+
+.cal .day,
+.cal .number-color {
+    color: rgb(255, 255, 255);
+}
+
+
+.cal .img-circle4 {
+    position: absolute;
+    top: 25px;
+    left: 140px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-image: url(https://2459647.fs1.hubspotusercontent-na1.net/hubfs/2459647/8747dd52-b8e0-42ac-879f-eb0e2d59fc9a.png);
+    background-size: cover;
+    z-index: 10;
+}
+
+.sub {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 630px;
+    background-color: rgb(194, 195, 197);
+}
+
+.sub-info{
+    color: rgb(255, 255, 255);
+}
+
+.sub-info .s1-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.sub-info .s-numbers {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.sub-email{
+    padding-top: 40px;
+}
+
+.sub-email .s-quote{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+
+.sub-email .s-quote h4{
+    font-weight: bolder;
+}
+
+.sub-email .form-inline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    height: 200px;
+}
+
+.left-f .img-f img{
+    width: 250px;
+    height: 100px;
+}
+
+.left-f .brands {
+    margin-left: 20px;
+    color: rgb(158,165,176);
+}
+
+
+.right-f{
+    font-size: 15px;
+}
+
+.right-f .f-txt{
+    font-weight: bolder;
+    color: rgb(0,0,0);
+}
+
+.right-f .f-txt2{
+    font-size: small;
+    color: rgb(135, 144, 158);
+}
+
+.ht, 
+.gh, 
+.atts{
+    margin-left: 30px;
+}
+
+.bottom-f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    margin: 40px;
+}
+
+.copyright{
+    color: rgb(135, 144, 158)
+}
+
+.f-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    color: rgb(13, 98, 255);
+}
+
+.f-links a{
+    text-decoration: none;
+}
+
+.f-links a:hover {
+    color: rgb(72, 170, 255);
+}
